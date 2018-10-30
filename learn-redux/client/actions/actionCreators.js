@@ -10,7 +10,7 @@ export const increment = (index) => {
 export const addComment = (postId, author, comment) => {
   return {
     type: 'ADD_COMMENT',
-    postID,
+    postId,
     author,
     comment
   };
@@ -20,7 +20,7 @@ export const addComment = (postId, author, comment) => {
 export const removeComment = (postId, i) => {
   return {
     type: 'REMOVE_COMMENT',
-    postID,
+    postId,
     i
   };
 };

@@ -3,7 +3,6 @@
 // 2. a copy of current state
 
 const comments = (state = [], action) => {
-  console.log(state, action);
   return state;
 };
 
